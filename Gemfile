@@ -39,7 +39,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+   gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+  
 end
+
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
@@ -55,12 +61,8 @@ group :test do
   gem 'capybara', '>= 2.15', '< 4.0'
   gem 'selenium-webdriver'
   
-  #追加部分
-  gem 'pry-rails'
-  gem 'pry-doc'
-  gem 'pry-byebug'
-  gem 'pry-stack_explorer'
-  
+
+ 
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
@@ -72,3 +74,4 @@ gem 'jquery-rails'
 
 gem 'bootstrap-sass'
 
+gem 'bcrypt'
