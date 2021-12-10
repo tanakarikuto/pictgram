@@ -114,5 +114,34 @@ h1, h2 {
      height: 30px;
      margin-left: 20px;
    }
+   
+  // .topic-index-comment{
+  //   width: 35px;
+  //   height: 30px;
+  //   margin-left: 20px;
+  // }
+   
+  // .topic-index-heart-white {
+  //   color: white !important;
+  //   width: 35px;
+  //   height: 30px;
+  //   margin-left: 20px;
+  // }
+   
+  // .topic-index-heart-red {
+  //   color: red !important;
+  //   width: 35px;
+  //   height: 30px;
+  //   margin-left: 20px;
+  // }
+   
+   .like-btn {
+     color: red;
+   }
+
+  .like-btn-unlike {
+     color: gray;
+   }
   }
 }
+
